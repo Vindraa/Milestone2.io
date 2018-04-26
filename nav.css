@@ -1,0 +1,49 @@
+*{
+  font-family: Arial;
+  background-color: #d9d9d9;
+}
+.hcomp {
+    float: left;
+    width: 28%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000066;
+    border-radius: 10px;
+}
+.containerTab {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.top:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.containerTab {
+  padding: 20px;
+  font-size: 25px;
+}
+#left, #middle, #right {
+  padding: 10px 50px;
+}
+a:link, a:visited {
+    background-color: #0099cc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+a:hover, a:active {
+    background-color: #00ccff;
+}
